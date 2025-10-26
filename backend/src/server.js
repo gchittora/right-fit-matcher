@@ -13,18 +13,7 @@ const allowedOrigins = [
   'https://right-fit-matcher-wado.vercel.app'
 ];
 
-app.use(cors({
-  origin: function (origin, callback) {
-    // Allow requests with no origin (mobile apps, Postman, etc)
-    if (!origin) return callback(null, true);
-    
-    if (allowedOrigins.indexOf(origin) === -1) {
-      return callback(new Error('CORS not allowed'), false);
-    }
-    return callback(null, true);
-  },
-  credentials: true
-}));
+app.use(cors());
 
 app.use(express.json());
 
