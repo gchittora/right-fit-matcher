@@ -188,10 +188,4 @@ right-fit-matcher/
 - User accounts to save multiple profiles
 - Compare multiple profiles side by side
 
-## License
 
-MIT
-
-## Acknowledgments
-
-Built as part of the Orbit AI Product Enhancement Challenge. University data compiled from official program websites and admissions statistics.
