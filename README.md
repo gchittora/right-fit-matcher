@@ -1,3 +1,5 @@
+https://right-fit-matcher-smb4.vercel.app/
+
 # MBA Right Fit Matcher
 
 A web application that helps MBA applicants find universities where they have the best chance of admission. The system analyzes your GMAT score, GPA, and work experience, then matches you with programs from a database of 23 top business schools.
